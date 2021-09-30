@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #eeeeee;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.623);
+  z-index: 0;
+}
+
+.modalpic {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: scroll;
+  z-index: 10;
+}
+.modalpic img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.art {
+  padding-top: 40px;
+  font-family: "Poppins";
+  font-size: 2.7rem;
+  text-align: center;
+  color: #141414;
+}
+.art p {
+  margin: 0;
+}
+
+#name {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+#title {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#mainpic {
+  max-width: 85%;
+  padding: 25px;
+  border: solid black 1px;
+  cursor: zoom-in;
+}
+
+.next {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+.next:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#objDate {
+  font-size: 2rem;
+  color: #4d4d4d;
+  padding-bottom: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
