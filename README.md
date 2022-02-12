@@ -1,3 +1,3 @@
 # MetCollectionAPI-Art-Randomizer
  
-Pulls random artwork from the Met Collection API.
+Pulls and displays random artwork from the Met Collection API. Written in vanilla JS.
